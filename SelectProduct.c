@@ -38,8 +38,6 @@ Type ='Manual'*/
 
 	lr_end_transaction("ClickProduct",LR_AUTO);
 	
-	//lr_save_string(lr_paramarr_random("itemId"), "randItem"); 
-	
 	lr_think_time(3);
 	return 0;
 }

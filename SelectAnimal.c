@@ -38,8 +38,6 @@ Type ='Manual'*/
 		LAST);
 
 	lr_end_transaction("ClickAnimal",LR_AUTO);
-	
-	lr_save_string(lr_paramarr_random("ProductID"), "randProduct");
 
 	lr_think_time(3);
 	return 0;
