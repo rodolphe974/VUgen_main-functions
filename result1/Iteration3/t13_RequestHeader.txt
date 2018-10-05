@@ -1,0 +1,10 @@
+GET /cart?add&itemId=EST-24 HTTP/1.1
+Referer: https://jpetstore.cfapps.io/catalog/items/EST-24
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: jpetstore.cfapps.io
+Cookie: JSESSIONID=3469F4DD44F22EE3CD8D788C8D2CB1BF; __VCAP_ID__=c4e0174e-1afc-4044-4fbc-9d73
+

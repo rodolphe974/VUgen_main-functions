@@ -12,7 +12,7 @@
 	//SelectItem();
 	//ManageCart();
 	
-	//pour ajouter chaque item possible au panier et l'en retirer	
+	//pour ajouter chaque item possible au panier et l'en retirer d'en la foulée	
 	for (compteur=1; compteur<=(lr_paramarr_len("itemId")); compteur++)
 	{
 		lr_save_string(lr_paramarr_idx("itemId",compteur), "randItem");

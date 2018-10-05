@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "AddAnimal_RemoveAnimal",
+        "steps": [
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: Animal",
+                "infFile": "t3.inf",
+                "time": 1538745190813
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: ProductID",
+                "infFile": "t5.inf",
+                "time": 1538745191346
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: ItemID",
+                "infFile": "t6.inf",
+                "time": 1538745191851
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Url: Add to Cart",
+                "infFile": "t7.inf",
+                "time": 1538745192580
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Url: Remove",
+                "infFile": "t8.inf",
+                "time": 1538745193295
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "ClickAnimal",
+                "rawStartTime": 1538745190348,
+                "rawEndTime": 1538745190813,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06152796745300293
+            },
+            {
+                "transactionName": "ClickProduct",
+                "rawStartTime": 1538745190816,
+                "rawEndTime": 1538745191347,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08512330055236817
+            },
+            {
+                "transactionName": "ClickItem",
+                "rawStartTime": 1538745191353,
+                "rawEndTime": 1538745191851,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06272578239440918
+            },
+            {
+                "transactionName": "AddCart",
+                "rawStartTime": 1538745191853,
+                "rawEndTime": 1538745192580,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0756845474243164
+            },
+            {
+                "transactionName": "Remove",
+                "rawStartTime": 1538745192582,
+                "rawEndTime": 1538745193296,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05980539321899414
+            }
+        ]
+    }
+]
