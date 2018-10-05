@@ -2,6 +2,7 @@
 {
 
 	SelectAnimal();
+	
 	SelectProduct();
 	
 	for (compteur=1; compteur<=(lr_paramarr_len("itemId")); compteur++)

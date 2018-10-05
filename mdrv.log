@@ -1,4 +1,4 @@
-Virtual User Script started at: 05/10/2018 14:42:14
+Virtual User Script started at: 05/10/2018 14:57:46
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (août 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -28,7 +28,7 @@ vuser_init.c(10): Found resource "https://jpetstore.cfapps.io/images/splash.gif"
 vuser_init.c(10): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
 vuser_init.c(10): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 vuser_init.c(10): web_url("catalog") was successful, 56994 body bytes, 8605 header bytes  	[MsgId: MMSG-26386]
-vuser_init.c(22): Notify: Transaction "Accueil" ended with a "Pass" status (Duration: 2.3046 Wasted Time: 0.1092).
+vuser_init.c(22): Notify: Transaction "Accueil" ended with a "Pass" status (Duration: 1.8060 Wasted Time: 0.1131).
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -60,7 +60,7 @@ SelectAnimal.c(28): Notify: Saving Parameter "ProductID_count = 2".
 SelectAnimal.c(28): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 SelectAnimal.c(28): Registered web_reg_find successful for "Text=REPTILES" (count=1)  	[MsgId: MMSG-26364]
 SelectAnimal.c(28): web_url("Animal") was successful, 16692 body bytes, 5452 header bytes  	[MsgId: MMSG-26386]
-SelectAnimal.c(40): Notify: Transaction "ClickAnimal" ended with a "Pass" status (Duration: 0,5652 Wasted Time: 0,0615).
+SelectAnimal.c(40): Notify: Transaction "ClickAnimal" ended with a "Pass" status (Duration: 0.4965 Wasted Time: 0.0547).
 SelectAnimal.c(42): Notify: Parameter Substitution: parameter "ProductID_count" =  "2"
 SelectAnimal.c(42): Notify: Parameter Substitution: parameter "ProductID_1" =  "RP-SN-01"
 SelectAnimal.c(42): Notify: Saving Parameter "randProduct = RP-SN-01".
@@ -91,11 +91,11 @@ SelectProduct.c(27): Notify: Saving Parameter "itemId_2 = EST-12".
 SelectProduct.c(27): Notify: Saving Parameter "itemId_count = 2".
 SelectProduct.c(27): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 SelectProduct.c(27): Registered web_reg_find successful for "Text=RP-SN-01" (count=2)  	[MsgId: MMSG-26364]
-SelectProduct.c(27): web_url("ProductID") was successful, 18017 body bytes, 5458 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-SelectProduct.c(39): Notify: Transaction "ClickProduct" ended with a "Pass" status (Duration: 0.4718 Wasted Time: 0.0514).
-AddAnimal_RemoveAnimal.c(7): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
-AddAnimal_RemoveAnimal.c(9): Notify: Parameter Substitution: parameter "itemId_1" =  "EST-11"
-AddAnimal_RemoveAnimal.c(9): Notify: Saving Parameter "randItem = EST-11".
+SelectProduct.c(27): web_url("ProductID") was successful, 18017 body bytes, 5452 header bytes  	[MsgId: MMSG-26386]
+SelectProduct.c(39): Notify: Transaction "ClickProduct" ended with a "Pass" status (Duration: 0.6380 Wasted Time: 0.0599).
+AddAnimal_RemoveAnimal.c(8): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
+AddAnimal_RemoveAnimal.c(10): Notify: Parameter Substitution: parameter "itemId_1" =  "EST-11"
+AddAnimal_RemoveAnimal.c(10): Notify: Saving Parameter "randItem = EST-11".
 SelectItem.c(3): Notify: Transaction "ClickItem" started.
 SelectItem.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 SelectItem.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -119,7 +119,7 @@ SelectItem.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico"
 SelectItem.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 SelectItem.c(11): Registered web_reg_find successful for "Text=EST-11" (count=2)  	[MsgId: MMSG-26364]
 SelectItem.c(11): web_url("ItemID") was successful, 30723 body bytes, 5958 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0,6113 Wasted Time: 0,0598).
+SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0,6311 Wasted Time: 0,0553).
 ManageCart.c(3): Notify: Transaction "AddCart" started.
 ManageCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 ManageCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -142,8 +142,8 @@ ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gi
 ManageCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
 ManageCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 ManageCart.c(11): Registered web_reg_find successful for "Text=Shopping Cart" (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(11): web_url("Add to Cart") was successful, 18982 body bytes, 5933 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-ManageCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0,6867 Wasted Time: 0,0561).
+ManageCart.c(11): web_url("Add to Cart") was successful, 18982 body bytes, 5933 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+ManageCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0,5762 Wasted Time: 0,0615).
 ManageCart.c(27): Notify: Transaction "Remove" started.
 ManageCart.c(29): web_reg_find started  	[MsgId: MMSG-26355]
 ManageCart.c(29): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -166,10 +166,10 @@ ManageCart.c(35): Downloading resource "https://jpetstore.cfapps.io/favicon.ico"
 ManageCart.c(35): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 ManageCart.c(35): Registered web_reg_find successful for "Text=Your cart is empty." (count=1)  	[MsgId: MMSG-26364]
 ManageCart.c(35): web_url("Remove") was successful, 17207 body bytes, 5933 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-ManageCart.c(47): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0,5758 Wasted Time: 0,0522).
-AddAnimal_RemoveAnimal.c(7): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
-AddAnimal_RemoveAnimal.c(9): Notify: Parameter Substitution: parameter "itemId_2" =  "EST-12"
-AddAnimal_RemoveAnimal.c(9): Notify: Saving Parameter "randItem = EST-12".
+ManageCart.c(47): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0,7216 Wasted Time: 0,0566).
+AddAnimal_RemoveAnimal.c(8): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
+AddAnimal_RemoveAnimal.c(10): Notify: Parameter Substitution: parameter "itemId_2" =  "EST-12"
+AddAnimal_RemoveAnimal.c(10): Notify: Saving Parameter "randItem = EST-12".
 SelectItem.c(3): Notify: Transaction "ClickItem" started.
 SelectItem.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 SelectItem.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -192,8 +192,8 @@ SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/snake1.gif"
 SelectItem.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
 SelectItem.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 SelectItem.c(11): Registered web_reg_find successful for "Text=EST-12" (count=2)  	[MsgId: MMSG-26364]
-SelectItem.c(11): web_url("ItemID") was successful, 30725 body bytes, 5952 header bytes  	[MsgId: MMSG-26386]
-SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0.6075 Wasted Time: 0.0637).
+SelectItem.c(11): web_url("ItemID") was successful, 30725 body bytes, 5958 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0.6096 Wasted Time: 0.0552).
 ManageCart.c(3): Notify: Transaction "AddCart" started.
 ManageCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 ManageCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -217,7 +217,7 @@ ManageCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico"
 ManageCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 ManageCart.c(11): Registered web_reg_find successful for "Text=Shopping Cart" (count=1)  	[MsgId: MMSG-26364]
 ManageCart.c(11): web_url("Add to Cart") was successful, 18983 body bytes, 5927 header bytes  	[MsgId: MMSG-26386]
-ManageCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0,7106 Wasted Time: 0,0530).
+ManageCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0,5743 Wasted Time: 0,0577).
 ManageCart.c(27): Notify: Transaction "Remove" started.
 ManageCart.c(29): web_reg_find started  	[MsgId: MMSG-26355]
 ManageCart.c(29): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -239,13 +239,13 @@ ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gi
 ManageCart.c(35): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
 ManageCart.c(35): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 ManageCart.c(35): Registered web_reg_find successful for "Text=Your cart is empty." (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(35): web_url("Remove") was successful, 17207 body bytes, 5933 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-ManageCart.c(47): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0,5853 Wasted Time: 0,0725).
-AddAnimal_RemoveAnimal.c(7): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
+ManageCart.c(35): web_url("Remove") was successful, 17207 body bytes, 5927 header bytes  	[MsgId: MMSG-26386]
+ManageCart.c(47): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0,9968 Wasted Time: 0,0641).
+AddAnimal_RemoveAnimal.c(8): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
 Ending action AddAnimal_RemoveAnimal.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Vuser 0 (thread 15476), ended OK."
+Vuser 0 (thread 10400), ended OK."
