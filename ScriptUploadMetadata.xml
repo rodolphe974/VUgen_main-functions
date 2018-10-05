@@ -8,7 +8,8 @@
     <FileEntry Name="SelectAnimal.c" Filter="2" />
     <FileEntry Name="SelectProduct.c" Filter="2" />
     <FileEntry Name="SelectItem.c" Filter="2" />
-    <FileEntry Name="ManageCart.c" Filter="2" />
+    <FileEntry Name="AddCart.c" Filter="2" />
+    <FileEntry Name="RemoveCart.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>

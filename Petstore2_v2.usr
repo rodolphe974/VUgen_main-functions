@@ -28,7 +28,8 @@ AddAnimal_RemoveAnimal=AddAnimal_RemoveAnimal.c
 SelectAnimal=SelectAnimal.c
 SelectProduct=SelectProduct.c
 SelectItem=SelectItem.c
-ManageCart=ManageCart.c
+AddCart=AddCart.c
+RemoveCart=RemoveCart.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -44,7 +45,8 @@ AddAnimal_RemoveAnimal=1
 SelectAnimal=1
 SelectProduct=1
 SelectItem=1
-ManageCart=1
+AddCart=1
+RemoveCart=1
 vuser_end=1
 [Recorded Actions]
 vuser_init=0
@@ -52,7 +54,8 @@ AddAnimal_RemoveAnimal=1
 SelectAnimal=0
 SelectProduct=0
 SelectItem=0
-ManageCart=0
+AddCart=0
+RemoveCart=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
@@ -60,7 +63,8 @@ AddAnimal_RemoveAnimal=1
 SelectAnimal=1
 SelectProduct=1
 SelectItem=1
-ManageCart=1
+AddCart=1
+RemoveCart=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
@@ -68,10 +72,11 @@ AddAnimal_RemoveAnimal=cci
 SelectAnimal=cci
 SelectProduct=cci
 SelectItem=cci
-ManageCart=cci
+AddCart=cci
+RemoveCart=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="Accueil__*delimiter*__ClickAnimal__*delimiter*__ClickProduct__*delimiter*__ClickItem__*delimiter*__AddCart__*delimiter*__Remove"
+Order="Accueil__*delimiter*__ClickAnimal__*delimiter*__ClickProduct__*delimiter*__ClickItem__*delimiter*__AddCart__*delimiter*__AddCart__*delimiter*__Remove"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]

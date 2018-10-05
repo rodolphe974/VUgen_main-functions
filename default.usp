@@ -1,7 +1,7 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
-Profile Actions name=vuser_init,AddAnimal_RemoveAnimal,SelectAnimal,SelectProduct,SelectItem,ManageCart,vuser_end
+Profile Actions name=vuser_init,AddAnimal_RemoveAnimal,SelectAnimal,SelectProduct,SelectItem,AddCart,RemoveCart,vuser_end
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"

@@ -17,7 +17,8 @@
 	{
 		lr_save_string(lr_paramarr_idx("itemId",compteur), "randItem");
 		SelectItem();
-		ManageCart();				
+		AddCart();	
+		RemoveCart();
 	}
 
 	return 0;

@@ -6,16 +6,16 @@
                 "stepId": "STEP1",
                 "stepName": "Url: catalog",
                 "infFile": "t1.inf",
-                "time": 1538744502144
+                "time": 1538745055762
             }
         ],
         "transactions": [
             {
                 "transactionName": "Accueil",
-                "rawStartTime": 1538744500241,
-                "rawEndTime": 1538744502145,
+                "rawStartTime": 1538745053868,
+                "rawEndTime": 1538745055762,
                 "thinkTime": 0.0,
-                "wastedTime": 0.10859084129333496
+                "wastedTime": 0.10951662063598633
             }
         ]
     }

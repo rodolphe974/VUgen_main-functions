@@ -1,4 +1,4 @@
-Virtual User Script started at: 05/10/2018 15:01:40
+Virtual User Script started at: 05/10/2018 15:10:53
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (août 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -28,7 +28,7 @@ vuser_init.c(10): Found resource "https://jpetstore.cfapps.io/images/birds_icon.
 vuser_init.c(10): Found resource "https://jpetstore.cfapps.io/images/splash.gif" in HTML "https://jpetstore.cfapps.io/catalog"  	[MsgId: MMSG-26659]
 vuser_init.c(10): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
 vuser_init.c(10): web_url("catalog") was successful, 56994 body bytes, 8611 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-vuser_init.c(22): Notify: Transaction "Accueil" ended with a "Pass" status (Duration: 1,9039 Wasted Time: 0,1086).
+vuser_init.c(22): Notify: Transaction "Accueil" ended with a "Pass" status (Duration: 1.8943 Wasted Time: 0.1095).
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -37,215 +37,213 @@ SelectAnimal.c(3): Notify: Transaction "ClickAnimal" started.
 SelectAnimal.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 SelectAnimal.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectAnimal.c(8): web_reg_find started  	[MsgId: MMSG-26355]
-SelectAnimal.c(8): Notify: Parameter Substitution: parameter "Category" =  "DOGS"
+SelectAnimal.c(8): Notify: Parameter Substitution: parameter "Category" =  "FISH"
 SelectAnimal.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectAnimal.c(17): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-SelectAnimal.c(17): Notify: Parameter Substitution: parameter "Category" =  "DOGS"
+SelectAnimal.c(17): Notify: Parameter Substitution: parameter "Category" =  "FISH"
 SelectAnimal.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 SelectAnimal.c(28): web_url("Animal") started  	[MsgId: MMSG-26355]
-SelectAnimal.c(28): Notify: Parameter Substitution: parameter "Category" =  "DOGS"
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
-SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/DOGS"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Notify: Parameter Substitution: parameter "Category" =  "FISH"
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
+SelectAnimal.c(28): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/categories/FISH"  	[MsgId: MMSG-26659]
 SelectAnimal.c(28): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
-SelectAnimal.c(28): Notify: Saving Parameter "ProductID_1 = K9-BD-01".
-SelectAnimal.c(28): Notify: Saving Parameter "ProductID_2 = K9-PO-02".
-SelectAnimal.c(28): Notify: Saving Parameter "ProductID_3 = K9-DL-01".
-SelectAnimal.c(28): Notify: Saving Parameter "ProductID_4 = K9-RT-01".
-SelectAnimal.c(28): Notify: Saving Parameter "ProductID_5 = K9-RT-02".
-SelectAnimal.c(28): Notify: Saving Parameter "ProductID_6 = K9-CW-01".
-SelectAnimal.c(28): Notify: Saving Parameter "ProductID_count = 6".
+SelectAnimal.c(28): Notify: Saving Parameter "ProductID_1 = FI-SW-01".
+SelectAnimal.c(28): Notify: Saving Parameter "ProductID_2 = FI-SW-02".
+SelectAnimal.c(28): Notify: Saving Parameter "ProductID_3 = FI-FW-01".
+SelectAnimal.c(28): Notify: Saving Parameter "ProductID_4 = FI-FW-02".
+SelectAnimal.c(28): Notify: Saving Parameter "ProductID_count = 4".
 SelectAnimal.c(28): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-SelectAnimal.c(28): Registered web_reg_find successful for "Text=DOGS" (count=1)  	[MsgId: MMSG-26364]
-SelectAnimal.c(28): web_url("Animal") was successful, 17528 body bytes, 5452 header bytes  	[MsgId: MMSG-26386]
-SelectAnimal.c(40): Notify: Transaction "ClickAnimal" ended with a "Pass" status (Duration: 0.4605 Wasted Time: 0.0633).
-AddAnimal_RemoveAnimal.c(7): Notify: Parameter Substitution: parameter "ProductID_count" =  "6"
-AddAnimal_RemoveAnimal.c(7): Notify: Parameter Substitution: parameter "ProductID_3" =  "K9-DL-01"
-AddAnimal_RemoveAnimal.c(7): Notify: Saving Parameter "randProduct = K9-DL-01".
+SelectAnimal.c(28): Registered web_reg_find successful for "Text=FISH" (count=1)  	[MsgId: MMSG-26364]
+SelectAnimal.c(28): web_url("Animal") was successful, 17098 body bytes, 5458 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+SelectAnimal.c(40): Notify: Transaction "ClickAnimal" ended with a "Pass" status (Duration: 0.6746 Wasted Time: 0.0765).
+AddAnimal_RemoveAnimal.c(7): Notify: Parameter Substitution: parameter "ProductID_count" =  "4"
+AddAnimal_RemoveAnimal.c(7): Notify: Parameter Substitution: parameter "ProductID_3" =  "FI-FW-01"
+AddAnimal_RemoveAnimal.c(7): Notify: Saving Parameter "randProduct = FI-FW-01".
 SelectProduct.c(5): Notify: Transaction "ClickProduct" started.
 SelectProduct.c(7): web_reg_find started  	[MsgId: MMSG-26355]
 SelectProduct.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectProduct.c(10): web_reg_find started  	[MsgId: MMSG-26355]
-SelectProduct.c(10): Notify: Parameter Substitution: parameter "randProduct" =  "K9-DL-01"
+SelectProduct.c(10): Notify: Parameter Substitution: parameter "randProduct" =  "FI-FW-01"
 SelectProduct.c(10): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectProduct.c(17): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-SelectProduct.c(17): Notify: Parameter Substitution: parameter "randProduct" =  "K9-DL-01"
+SelectProduct.c(17): Notify: Parameter Substitution: parameter "randProduct" =  "FI-FW-01"
 SelectProduct.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 SelectProduct.c(27): web_url("ProductID") started  	[MsgId: MMSG-26355]
-SelectProduct.c(27): Notify: Parameter Substitution: parameter "randProduct" =  "K9-DL-01"
-SelectProduct.c(27): Notify: Parameter Substitution: parameter "Category" =  "DOGS"
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
-SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/K9-DL-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Notify: Parameter Substitution: parameter "randProduct" =  "FI-FW-01"
+SelectProduct.c(27): Notify: Parameter Substitution: parameter "Category" =  "FISH"
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
+SelectProduct.c(27): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/products/FI-FW-01"  	[MsgId: MMSG-26659]
 SelectProduct.c(27): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
-SelectProduct.c(27): Notify: Saving Parameter "itemId_1 = EST-9".
-SelectProduct.c(27): Notify: Saving Parameter "itemId_2 = EST-10".
+SelectProduct.c(27): Notify: Saving Parameter "itemId_1 = EST-4".
+SelectProduct.c(27): Notify: Saving Parameter "itemId_2 = EST-5".
 SelectProduct.c(27): Notify: Saving Parameter "itemId_count = 2".
 SelectProduct.c(27): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-SelectProduct.c(27): Registered web_reg_find successful for "Text=K9-DL-01" (count=2)  	[MsgId: MMSG-26364]
-SelectProduct.c(27): web_url("ProductID") was successful, 18020 body bytes, 5458 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-SelectProduct.c(39): Notify: Transaction "ClickProduct" ended with a "Pass" status (Duration: 0.7088 Wasted Time: 0.0624).
-AddAnimal_RemoveAnimal.c(14): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
-AddAnimal_RemoveAnimal.c(16): Notify: Parameter Substitution: parameter "itemId_1" =  "EST-9"
-AddAnimal_RemoveAnimal.c(16): Notify: Saving Parameter "randItem = EST-9".
+SelectProduct.c(27): Registered web_reg_find successful for "Text=FI-FW-01" (count=2)  	[MsgId: MMSG-26364]
+SelectProduct.c(27): web_url("ProductID") was successful, 17975 body bytes, 5452 header bytes  	[MsgId: MMSG-26386]
+SelectProduct.c(39): Notify: Transaction "ClickProduct" ended with a "Pass" status (Duration: 0,7030 Wasted Time: 0,0541).
+AddAnimal_RemoveAnimal.c(16): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
+AddAnimal_RemoveAnimal.c(18): Notify: Parameter Substitution: parameter "itemId_1" =  "EST-4"
+AddAnimal_RemoveAnimal.c(18): Notify: Saving Parameter "randItem = EST-4".
 SelectItem.c(3): Notify: Transaction "ClickItem" started.
 SelectItem.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 SelectItem.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectItem.c(8): web_reg_find started  	[MsgId: MMSG-26355]
-SelectItem.c(8): Notify: Parameter Substitution: parameter "randItem" =  "EST-9"
+SelectItem.c(8): Notify: Parameter Substitution: parameter "randItem" =  "EST-4"
 SelectItem.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectItem.c(11): web_url("ItemID") started  	[MsgId: MMSG-26355]
-SelectItem.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-9"
-SelectItem.c(11): Notify: Parameter Substitution: parameter "randProduct" =  "K9-DL-01"
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/dog5.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-9"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-4"
+SelectItem.c(11): Notify: Parameter Substitution: parameter "randProduct" =  "FI-FW-01"
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/fish3.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-4"  	[MsgId: MMSG-26659]
 SelectItem.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
 SelectItem.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-SelectItem.c(11): Registered web_reg_find successful for "Text=EST-9" (count=2)  	[MsgId: MMSG-26364]
-SelectItem.c(11): web_url("ItemID") was successful, 30364 body bytes, 5958 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0,5795 Wasted Time: 0,0631).
-ManageCart.c(3): Notify: Transaction "AddCart" started.
-ManageCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(8): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(11): web_url("Add to Cart") started  	[MsgId: MMSG-26355]
-ManageCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-9"
-ManageCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-9"
-ManageCart.c(11): Redirecting "https://jpetstore.cfapps.io/cart?add&itemId=EST-9" (redirection depth is 0)  	[MsgId: MMSG-26694]
-ManageCart.c(11): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
-ManageCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(11): Registered web_reg_find successful for "Text=Shopping Cart" (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(11): web_url("Add to Cart") was successful, 18986 body bytes, 5933 header bytes, 25 chunking overhead bytes  	[MsgId: MMSG-26385]
-ManageCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0.5516 Wasted Time: 0.0546).
-ManageCart.c(27): Notify: Transaction "Remove" started.
-ManageCart.c(29): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(29): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(32): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(35): web_url("Remove") started  	[MsgId: MMSG-26355]
-ManageCart.c(35): Notify: Parameter Substitution: parameter "randItem" =  "EST-9"
-ManageCart.c(35): Redirecting "https://jpetstore.cfapps.io/cart?remove&itemId=EST-9" (redirection depth is 0)  	[MsgId: MMSG-26694]
-ManageCart.c(35): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
-ManageCart.c(35): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(35): Registered web_reg_find successful for "Text=Your cart is empty." (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(35): web_url("Remove") was successful, 17207 body bytes, 5933 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-ManageCart.c(47): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0,6908 Wasted Time: 0,0674).
-AddAnimal_RemoveAnimal.c(14): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
-AddAnimal_RemoveAnimal.c(16): Notify: Parameter Substitution: parameter "itemId_2" =  "EST-10"
-AddAnimal_RemoveAnimal.c(16): Notify: Saving Parameter "randItem = EST-10".
+SelectItem.c(11): Registered web_reg_find successful for "Text=EST-4" (count=2)  	[MsgId: MMSG-26364]
+SelectItem.c(11): web_url("ItemID") was successful, 29109 body bytes, 5952 header bytes  	[MsgId: MMSG-26386]
+SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0,6560 Wasted Time: 0,0567).
+AddCart.c(3): Notify: Transaction "AddCart" started.
+AddCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+AddCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+AddCart.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+AddCart.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+AddCart.c(11): web_url("Add to Cart") started  	[MsgId: MMSG-26355]
+AddCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-4"
+AddCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-4"
+AddCart.c(11): Redirecting "https://jpetstore.cfapps.io/cart?add&itemId=EST-4" (redirection depth is 0)  	[MsgId: MMSG-26694]
+AddCart.c(11): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
+AddCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+AddCart.c(11): Registered web_reg_find successful for "Text=Shopping Cart" (count=1)  	[MsgId: MMSG-26364]
+AddCart.c(11): web_url("Add to Cart") was successful, 18968 body bytes, 5933 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+AddCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0,7307 Wasted Time: 0,0564).
+RemoveCart.c(3): Notify: Transaction "Remove" started.
+RemoveCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+RemoveCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+RemoveCart.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+RemoveCart.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+RemoveCart.c(11): web_url("Remove") started  	[MsgId: MMSG-26355]
+RemoveCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-4"
+RemoveCart.c(11): Redirecting "https://jpetstore.cfapps.io/cart?remove&itemId=EST-4" (redirection depth is 0)  	[MsgId: MMSG-26694]
+RemoveCart.c(11): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
+RemoveCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+RemoveCart.c(11): Registered web_reg_find successful for "Text=Your cart is empty." (count=1)  	[MsgId: MMSG-26364]
+RemoveCart.c(11): web_url("Remove") was successful, 17207 body bytes, 5933 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+RemoveCart.c(23): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0.5532 Wasted Time: 0.0557).
+AddAnimal_RemoveAnimal.c(16): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
+AddAnimal_RemoveAnimal.c(18): Notify: Parameter Substitution: parameter "itemId_2" =  "EST-5"
+AddAnimal_RemoveAnimal.c(18): Notify: Saving Parameter "randItem = EST-5".
 SelectItem.c(3): Notify: Transaction "ClickItem" started.
 SelectItem.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 SelectItem.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectItem.c(8): web_reg_find started  	[MsgId: MMSG-26355]
-SelectItem.c(8): Notify: Parameter Substitution: parameter "randItem" =  "EST-10"
+SelectItem.c(8): Notify: Parameter Substitution: parameter "randItem" =  "EST-5"
 SelectItem.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SelectItem.c(11): web_url("ItemID") started  	[MsgId: MMSG-26355]
-SelectItem.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-10"
-SelectItem.c(11): Notify: Parameter Substitution: parameter "randProduct" =  "K9-DL-01"
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
-SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/dog5.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-10"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-5"
+SelectItem.c(11): Notify: Parameter Substitution: parameter "randProduct" =  "FI-FW-01"
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
+SelectItem.c(11): Found resource "https://jpetstore.cfapps.io/images/fish3.gif" in HTML "https://jpetstore.cfapps.io/catalog/items/EST-5"  	[MsgId: MMSG-26659]
 SelectItem.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
 SelectItem.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-SelectItem.c(11): Registered web_reg_find successful for "Text=EST-10" (count=2)  	[MsgId: MMSG-26364]
-SelectItem.c(11): web_url("ItemID") was successful, 30367 body bytes, 5958 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0,6699 Wasted Time: 0,0601).
-ManageCart.c(3): Notify: Transaction "AddCart" started.
-ManageCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(8): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(11): web_url("Add to Cart") started  	[MsgId: MMSG-26355]
-ManageCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-10"
-ManageCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-10"
-ManageCart.c(11): Redirecting "https://jpetstore.cfapps.io/cart?add&itemId=EST-10" (redirection depth is 0)  	[MsgId: MMSG-26694]
-ManageCart.c(11): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
-ManageCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(11): Registered web_reg_find successful for "Text=Shopping Cart" (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(11): web_url("Add to Cart") was successful, 18991 body bytes, 5933 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-ManageCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0.6198 Wasted Time: 0.0519).
-ManageCart.c(27): Notify: Transaction "Remove" started.
-ManageCart.c(29): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(29): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(32): web_reg_find started  	[MsgId: MMSG-26355]
-ManageCart.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-ManageCart.c(35): web_url("Remove") started  	[MsgId: MMSG-26355]
-ManageCart.c(35): Notify: Parameter Substitution: parameter "randItem" =  "EST-10"
-ManageCart.c(35): Redirecting "https://jpetstore.cfapps.io/cart?remove&itemId=EST-10" (redirection depth is 0)  	[MsgId: MMSG-26694]
-ManageCart.c(35): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
-ManageCart.c(35): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
-ManageCart.c(35): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(35): Registered web_reg_find successful for "Text=Your cart is empty." (count=1)  	[MsgId: MMSG-26364]
-ManageCart.c(35): web_url("Remove") was successful, 17207 body bytes, 5933 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
-ManageCart.c(47): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0,6568 Wasted Time: 0,0486).
-AddAnimal_RemoveAnimal.c(14): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
+SelectItem.c(11): Registered web_reg_find successful for "Text=EST-5" (count=2)  	[MsgId: MMSG-26364]
+SelectItem.c(11): web_url("ItemID") was successful, 29110 body bytes, 5958 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+SelectItem.c(23): Notify: Transaction "ClickItem" ended with a "Pass" status (Duration: 0.5173 Wasted Time: 0.0562).
+AddCart.c(3): Notify: Transaction "AddCart" started.
+AddCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+AddCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+AddCart.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+AddCart.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+AddCart.c(11): web_url("Add to Cart") started  	[MsgId: MMSG-26355]
+AddCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-5"
+AddCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-5"
+AddCart.c(11): Redirecting "https://jpetstore.cfapps.io/cart?add&itemId=EST-5" (redirection depth is 0)  	[MsgId: MMSG-26694]
+AddCart.c(11): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+AddCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
+AddCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+AddCart.c(11): Registered web_reg_find successful for "Text=Shopping Cart" (count=1)  	[MsgId: MMSG-26364]
+AddCart.c(11): web_url("Add to Cart") was successful, 18969 body bytes, 5927 header bytes  	[MsgId: MMSG-26386]
+AddCart.c(23): Notify: Transaction "AddCart" ended with a "Pass" status (Duration: 0.5702 Wasted Time: 0.0543).
+RemoveCart.c(3): Notify: Transaction "Remove" started.
+RemoveCart.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+RemoveCart.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+RemoveCart.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+RemoveCart.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+RemoveCart.c(11): web_url("Remove") started  	[MsgId: MMSG-26355]
+RemoveCart.c(11): Notify: Parameter Substitution: parameter "randItem" =  "EST-5"
+RemoveCart.c(11): Redirecting "https://jpetstore.cfapps.io/cart?remove&itemId=EST-5" (redirection depth is 0)  	[MsgId: MMSG-26694]
+RemoveCart.c(11): To location "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26693]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/css/jpetstore.css" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/logo-topbar.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/cart.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/separator.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_fish.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_dogs.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_reptiles.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_cats.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Found resource "https://jpetstore.cfapps.io/images/sm_birds.gif" in HTML "https://jpetstore.cfapps.io/cart"  	[MsgId: MMSG-26659]
+RemoveCart.c(11): Downloading resource "https://jpetstore.cfapps.io/favicon.ico" (specified by argument number 10)  	[MsgId: MMSG-26577]
+RemoveCart.c(11): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+RemoveCart.c(11): Registered web_reg_find successful for "Text=Your cart is empty." (count=1)  	[MsgId: MMSG-26364]
+RemoveCart.c(11): web_url("Remove") was successful, 17207 body bytes, 5927 header bytes  	[MsgId: MMSG-26386]
+RemoveCart.c(23): Notify: Transaction "Remove" ended with a "Pass" status (Duration: 0.6771 Wasted Time: 0.0513).
+AddAnimal_RemoveAnimal.c(16): Notify: Parameter Substitution: parameter "itemId_count" =  "2"
 Ending action AddAnimal_RemoveAnimal.
 Ending iteration 1.
 Ending Vuser...
