@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: catalog",
+                "infFile": "t1.inf",
+                "time": 1538743337069
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Accueil",
+                "rawStartTime": 1538743334765,
+                "rawEndTime": 1538743337069,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10921573638916016
+            }
+        ]
+    }
+]
